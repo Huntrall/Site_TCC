@@ -6,13 +6,17 @@
 }
 
 /* definindo a estrutura principal*/
-#cabecalho, #conteudo, #rodape {
-    width: 960px;
-    margin: 0 auto;
+html, body {
+	height: 100%;
 }
 
-#cabecalho{
-    height: 100px;
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: #6c757d;
 }
 
 a:link {
@@ -60,41 +64,8 @@ a:hover {
 	color:#8395A7; /* cor do link quando eu passar o mouse*/
 }
 
-#logo {
-    display: block; 
-}
-
-#logo img {
-    width: 600px ;
-    height: 150px ;
-}
-
-#divBusca{
-    background-color:#7FB7BE;
-    border-radius:15px;
-    width:300px;
-    float: right;
-    margin-top: 100px;
-  }
-  
-#txtBusca{
-    float:right;
-    background-color:transparent;
-    padding-left:5px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
-  }
-
-#divBusca img{
-    width: 30px;
-    height: 30px;
-}
-
 #corpo{
-    background-color: #713E5A;
+    background-color: #dee2e6;
 }
 
 #navegacao {
@@ -102,8 +73,55 @@ a:hover {
     padding: 10px;
 }
 
-#conteudo img {
-    margin: 10px;
-    height: 200px;
-    width: 200px;;
+#cabecalho-principal
+{
+	background: url("../imagens/logo.jpg") no-repeat top center;
+	background-size: cover;
+}
+
+#cabecalho {
+	position: relative;
+	overflow: hidden;
+	height: 400px;
+}
+
+.conteudo {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+#logo {
+	position: absolute;
+	top: 3em;
+	padding: 1em 1em;
+	left: 0;
+    text-align: center;
+}
+
+#corpo-site {
+	background: #e1e5f2;
+	margin: 0px 20px;
+}
+
+/* page */
+
+#pagina {
+	overflow: hidden;
+	padding: 5em 0em;
+}
+
+#pagina img{
+        margin-bottom: 1em;
+}
+    
+.rodape-fora{
+    clear: both;
+
+}
+
+#rodape{
+    color: white;
+    background: url(../imagens/backgroundrodape.png) no-repeat center;
+    background-size: 100%;
+
 }
