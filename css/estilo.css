@@ -105,15 +105,6 @@ a:hover {
 
 /* page */
 
-#pagina {
-	overflow: hidden;
-	padding: 5em 0em;
-}
-
-#pagina img{
-        margin-bottom: 1em;
-}
-    
 .rodape-fora{
     clear: both;
 
@@ -125,3 +116,204 @@ a:hover {
     background-size: 100%;
 
 }
+
+#pagina {
+	overflow: hidden;
+	padding: 5em 0em;
+}
+
+	#pagina img
+	{
+		margin-bottom: 1em;
+	}
+
+	#pagina .titulo
+	{
+		margin-bottom: 2em;
+	}
+
+	#pagina .titulo h2
+	{
+		font-size: 1.5em;
+		font-weight: 400;
+		color: rgba(0,0,0,0.8);
+	}
+	
+	#pagina .titulo .linha-abaixo
+	{
+		display: block;
+		padding-bottom: 2em;
+		color: rgba(0,0,0,0.7);
+	}
+
+	#pagina {
+		overflow: hidden;
+		padding: 5em 0em;
+	}
+	
+		#pagina img
+		{
+			margin-bottom: 1em;
+		}
+	
+		#pagina .titulo
+		{
+			margin-bottom: 2em;
+		}
+	
+		#pagina .titulo h2
+		{
+			font-size: 1.5em;
+			font-weight: 400;
+			color: rgba(0,0,0,0.8);
+		}
+		
+		#pagina .titulo .linha-abaixo
+		{
+			display: block;
+			padding-bottom: 2em;
+			color: rgba(0,0,0,0.7);
+		}
+	
+	
+	/* Portfolio */
+	
+		#portfolio-principal
+		{
+			overflow: hidden;
+			padding: 5em 0em;
+			background: #c5d8d1;
+			background-image: url(images/overlay.png);
+			background-repeat: repeat;
+			border-top: 1px solid rgba(0,0,0,.05);
+		}
+		
+		#portfolio
+		{
+		text-align: center;
+		margin-left: 200px;
+		}
+	
+		#portfolio .caixa
+		{
+			color: #6c757d;
+		}
+		
+		#portfolio h3
+		{
+			display: block;
+			padding-bottom: 1em;
+			text-transform: uppercase;
+			font-size: 1.2em;
+			font-weight: 400;
+			color: rgba(0,0,0,0.7);
+		}
+	
+		#portfolio .titulo h2
+		{
+			color: rgba(0,0,0,0.8);
+			margin-right:300px;
+		}
+		
+		#portfolio .titulo .linha-abaixo
+		{
+			display: block;
+			padding-bottom: 2em;
+			color: #6c757d;
+			margin-right:300px;
+	
+	
+		}
+	
+		.coluna1,
+		.coluna2,
+		.coluna3
+		{
+			width: 282px;
+			float: left;
+			margin-right: 24px;
+		
+		}
+
+.endereco {
+    font-size: 16px; /* tamanho da fonte */ 
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+}
+p {
+    font-size: 16px; /* tamanho da fonte */ 
+    margin-bottom: 1.5em;
+	line-height: 1.4em;
+	text-align: justify;
+}
+
+#arrumandoimg {
+	margin-top: 28px;
+}
+
+/* BOTÃO */
+
+.botao
+{
+	display: inline-block;
+	margin-top: 2em;
+	padding: 0em 1em;
+	background: #FC814A	;
+	letter-spacing: 0.10em;
+	line-height: 3em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1em;
+	color: #FFF;
+}
+
+/* Portfolio */
+
+#portfolio-principal
+{
+	overflow: hidden;
+	padding: 5em 0em;
+	background: #c5d8d1;
+	background-image: url(images/overlay.png);
+	background-repeat: repeat;
+	border-top: 1px solid rgba(0,0,0,.05);
+}
+
+#portfolio
+{
+text-align: center;
+margin-left: 200px;
+}
+
+#portfolio .caixa
+{
+	color: #6c757d;
+}
+
+#portfolio h3
+{
+	display: block;
+	padding-bottom: 1em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: 400;
+	color: rgba(0,0,0,0.7);
+}
+
+#portfolio .titulo h2
+{
+	color: rgba(0,0,0,0.8);
+	margin-right:300px;
+}
+
+#portfolio .titulo .linha-abaixo
+{
+	display: block;
+	padding-bottom: 2em;
+	color: #6c757d;
+	margin-right:300px;
+
+
+}
+
