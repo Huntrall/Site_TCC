@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8">
+    <title> Paginal Inicial - AGILIZA</title>
+    <link href="css/estilo.css" rel="stylesheet"> 
+</head>
+<body id="corpo-site">
+<header id="cabecalho-principal">
+    <section id=cabecalho class="conteudo">
+        <section id="logo">
+            <a href="index.html"></a>
+        </section>
+    </section>
+        <nav id="menu-principal">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../trabalheconosco.html">Trabalhe Conosco</a></li>
+                <li><a href="../sobrenos.html">Sobre nós</a></li>
+            </ul>
+        </nav>
+</header>
+
+<section id="pagina" class="conteudo">
+    <section class="formulario">
+        <div class="titulopagina2">
+            <h1><strong>Formulário</strong></h1>
+        </div>
+        <br /><br />
+        <form action="#">
+        <label for="cNome">Nome:</label><br />
+      <input type="text" size=50 name="tNome" id="cNome" required="required" />
+      <br /><br />
+      <p>Sexo:</p>
+      <input type="radio" name="tSexo" id="cMas" value="M" />
+      <label for="cMasc">Masculino</label><br />
+      <input type="radio" name="tSexo" id="cFem" value="F" />
+      <label for="cFem">Feminino</label><br />
+      <input type="radio" name="tSexo" id="cOut" value="O" />
+      <label for="cOut">Outro</label> <br><br />
+      <p>Qual meio de transporte você usa?</p>
+      <input type="checkbox" id="vehicle1" name="transporte1" value="Bike" />
+      <label for="transporte1"> Bicicleta</label><br />
+      <input type="checkbox" id="vehicle2" name="transporte2" value="Car" />
+      <label for="transporte2"> Carro</label><br />
+      <input type="checkbox" id="vehicle3" name="transporte3" value="Metro" />
+      <label for="transporte3"> Metrô</label><br />
+      <input type="checkbox" id="vehicle3" name="transporte4" value="Bus" />
+      <label for="transporte4"> Ônibus</label> <br /><br />
+      </select><br /><br />
+      <label for="browser">Escolha a sua Cidade na lista:</label>
+      <input list="cidade" name="tCid" id="cCid" placeholder="Sua Cidade" />
+      <datalist id="cidade">
+        <option value="São Paulo"></option>
+        <option value="Campinas"></option>
+        <option value="Santos"></option>
+        <option value="Santo André"></option>
+      </datalist><br /><br />
+      <input type="submit" value="Enviar" />
+      <br /><br />
+      <p>Mande seu curriculo para AgilizaTC@hotmail.com</p>
+    </form> 
+    </section>
+</section>
+
+<div class="rodape-fora">
+        <footer id="rodape">
+            <img src="/imagens/logorodape.png" alt="logorodape"/>
+            <p class="endereco">
+                AV. SIDAF AF ASC IAHYTF 245
+                <br>
+                São Paulo-SP
+            </p>
+            
+           <p class="copyright"><small>©Agiliza Ltda. Todos os Direitos Reservados.</small></p>
+    
+        </footer>
+    </div>
+
+</body>
+</html>
